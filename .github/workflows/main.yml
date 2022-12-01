@@ -15,4 +15,5 @@ jobs:
       image: debian:11
     steps:
     - uses: actions/checkout@v3
-    - uses: tnsdyd/action_create@master
+    - run: ls -al
+    #- uses: tnsdyd/action_create@master
