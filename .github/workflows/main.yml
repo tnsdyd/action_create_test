@@ -17,5 +17,5 @@ jobs:
       options: --user root
     steps:
     - uses: actions/checkout@v3
-    - run: ls -al
     - uses: tnsdyd/action_create@master
+    - run: ls -al
